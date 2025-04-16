@@ -25,6 +25,7 @@
         .notes-list a {
             color: #3498db;
             text-decoration: none;
+            font-size: 1.2rem;
         }
         .notes-list a:hover {
             text-decoration: underline;
@@ -38,6 +39,12 @@
             text-decoration: none;
             border-radius: 5px;
         }
+        .pdf-viewer {
+            width: 100%;
+            height: 800px;
+            margin-top: 2rem;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -45,12 +52,9 @@
         <a href="../" class="back-btn">← Back to OS</a>
         <h1>Operating Systems Notes</h1>
         <ul class="notes-list">
-            <li><a href="OS_Unit_1.pdf">Unit 1: Introduction to Operating Systems</a></li>
-            <li><a href="OS_Unit_2.pdf">Unit 2: Process Management</a></li>
-            <li><a href="OS_Unit_3.pdf">Unit 3: Memory Management</a></li>
-            <li><a href="OS_Unit_4.pdf">Unit 4: File Systems</a></li>
-            <li><a href="OS_Unit_5.pdf">Unit 5: I/O Management</a></li>
+            <li><a href="Operating_System_notes.pdf" target="_blank">Operating Systems Complete Notes</a></li>
         </ul>
+        <iframe src="Operating_System_notes.pdf" class="pdf-viewer"></iframe>
     </div>
 </body>
 </html> 
