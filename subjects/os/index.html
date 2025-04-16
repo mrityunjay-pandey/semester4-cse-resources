@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating Systems Resources</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+        .resource-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .resource-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .resource-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        .resource-btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0.5rem;
+        }
+        .resource-btn:hover {
+            background-color: #2980b9;
+        }
+        .back-btn {
+            display: inline-block;
+            margin: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resource-container">
+        <a href="../../" class="back-btn">← Back to Subjects</a>
+        <h1>Operating Systems Resources</h1>
+        
+        <div class="resource-grid">
+            <div class="resource-card">
+                <h3>Syllabus</h3>
+                <a href="syllabus.pdf" class="resource-btn">View Syllabus</a>
+            </div>
+            
+            <div class="resource-card">
+                <h3>Notes</h3>
+                <a href="notes/" class="resource-btn">View Notes</a>
+            </div>
+            
+            <div class="resource-card">
+                <h3>Assignments</h3>
+                <a href="assignments/" class="resource-btn">View Assignments</a>
+            </div>
+            
+            <div class="resource-card">
+                <h3>Presentations</h3>
+                <a href="ppts/" class="resource-btn">View PPTs</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
